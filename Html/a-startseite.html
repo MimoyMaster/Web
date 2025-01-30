@@ -1,0 +1,516 @@
+<html>
+    <title>www.technik-welt.info</title>
+    <link rel="icon" type="image/x-icon" href="technologie.png">
+    <head>
+        <style>
+
+            body {
+                background-color: #131524;
+            }
+
+            header {
+                padding: 200px;
+                color:#F1F3FF;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            #t1 {
+                font-size: 34px;
+                position: absolute;
+                left: 170px;
+                top: 30px;
+            }
+
+            #b1 {
+                position: absolute;
+                left: 90px;
+                top: 50px;
+            }
+
+            .navbar {
+		position: absolute;
+        left: 450px;
+        top: 65px;
+		z-index: 999;
+	}
+
+	.navbar ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	.navbar li {
+		display: inline-block;
+	}
+
+	.navbar li a {
+		color: #989EB3;
+		display: block;
+		padding: 13px 50px;
+		text-decoration: none;
+	}
+
+    .navbar li a:hover {
+		color: white;
+		display: block;
+		padding: 13px 50px;
+		text-decoration: none;
+        background-color: #125dc5;
+        border-radius: 10px;
+	}
+
+	/* Style the dropdown menu */
+	.navbar ul ul {
+		position: absolute;
+		top: 100%;
+		display: none;
+	}
+
+	.navbar ul ul li {
+		display: block;
+	}
+
+	.navbar li:hover ul {
+		display: block;
+	}
+
+	/* Change the background color of dropdown links on hover */
+	.navbar ul ul li a:hover {
+		background-color: #9c1ce6;
+        border-radius: 10px;
+        color: white;
+	}
+
+            #b2 {
+                position: absolute;
+                left: 10px;
+                top: 9px;
+            }
+
+            #b3 {
+                position: absolute;
+                left: 184px;
+                top: 9px;
+            }
+
+            #b4 {
+                position: absolute;
+                left: 332px;
+                top: 9px;
+            }
+
+            #b5 {
+                position: absolute;
+                left: 470px;
+                top: 9px;
+            }
+
+            #b6 {
+                position: absolute;
+                left: 610px;
+                top: 9px;
+            }
+
+            #s1 {
+                padding: 13px 100px;
+                position: absolute;
+                left: 1480px;
+                top:64px;
+                background-color: #131524;
+                color: #989EB3;
+                border: solid #125dc5;
+                border-radius: 15px;
+            }
+
+            #s1:hover {
+                padding: 13px 100px;
+                position: absolute;
+                left: 1480px;
+                top:64px;
+                background-color: #9c1ce6;
+                color: #F1F3FF;  
+                border: solid #9c1ce6; 
+                border-radius: 15px;          
+            }
+
+            #b7 {
+                position: absolute;
+                left: 825px;
+                top: 9px;
+            }
+
+            article {
+                padding: 700px;
+                color:#F1F3FF;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            #t2 {
+                font-size: 40px;
+                position: absolute;
+                left: 220px;
+                top: 50px;
+                background-image: linear-gradient(90deg, rgba(156,28,230,1) 0%, rgba(89,47,225,1) 49%, rgba(18,93,197,1) 100%);
+                background-size: 100% 6px;
+                background-position: bottom;
+                background-repeat: no-repeat;
+                line-height: 60px;
+            }
+
+            #s2 {
+                position: absolute;
+                padding: 80px 600px;
+                left: 20%;
+                top: 265px;
+            }
+
+            #s3 {
+                position: absolute;
+                padding: 80px 600px;
+                left: 20%;
+                top: 430px;
+                background-color: #373d6d;
+                border-radius: 10px;
+            }
+
+            #t3 {
+                font-size: 17px;
+                position: absolute;
+                left: 130px;
+                top:38px;
+                line-height: 1.7;
+            }
+
+            #t4 {
+                font-size: 27px;
+                position: absolute;
+                left: 10px;
+                top:10px;
+            }
+
+            #s4 {
+                position: absolute;
+                padding: 130px 600px;
+                left: 20%;
+                top: 720px;
+                background-color: #373d6d;
+                border-radius: 10px;
+            }
+
+            #t5 {
+                font-size: 17px;
+                position: absolute;
+                left: 130px;
+                top:38px;
+                line-height: 1.7;
+            }
+
+            #s4-1 {
+                position: absolute;
+                padding: 10px 5px;
+                left: 125px;
+                top: 120px;
+                border-radius: 10px;
+            }
+
+            #s4-1:hover {
+                position: absolute;
+                padding: 10px 5px;
+                left: 125px;
+                top: 120px;
+                background: rgb(156,28,230);
+                background: linear-gradient(90deg, rgba(156,28,230,1) 0%, rgba(89,47,225,1) 49%, rgba(18,93,197,1) 100%);
+                border-radius: 10px;
+                color: #131524;
+            }
+
+            #s4-2 {
+                position: absolute;
+                padding: 10px 5px;
+                left: 125px;
+                top: 160px;
+                border-radius: 10px;
+            }
+
+            #s4-2:hover {
+                position: absolute;
+                padding: 10px 5px;
+                left: 125px;
+                top: 160px;
+                background: rgb(156,28,230);
+                background: linear-gradient(90deg, rgba(156,28,230,1) 0%, rgba(89,47,225,1) 49%, rgba(18,93,197,1) 100%);
+                border-radius: 10px;
+                color: #131524;
+            }
+
+            .li {
+                color:#F1F3FF;
+                text-decoration: none;
+            }
+
+            .li:hover {
+                color:#131524;
+            }
+
+            #s5 {
+                position: absolute;
+                padding: 130px 600px;
+                left: 20%;
+                top: 1120px;
+                background-color: #373d6d;
+                border-radius: 10px;
+            }
+
+            #t6 {
+                font-size: 27px;
+                position: absolute;
+                left: 10px;
+                top:10px;
+            }
+
+            #t7 {
+                font-size: 17px;
+                position: absolute;
+                left: 130px;
+                top:38px;
+                line-height: 1.7;
+            }
+
+            #s5-1 {
+                position: absolute;
+                padding: 10px 5px;
+                left: 125px;
+                top: 120px;
+                border-radius: 10px;
+            }
+
+            #s5-1:hover {
+                position: absolute;
+                padding: 10px 5px;
+                left: 125px;
+                top: 120px;
+                background: rgb(156,28,230);
+                background: linear-gradient(90deg, rgba(156,28,230,1) 0%, rgba(89,47,225,1) 49%, rgba(18,93,197,1) 100%);
+                border-radius: 10px;
+                color: #131524;
+            }
+
+            #s5-2 {
+                position: absolute;
+                padding: 10px 5px;
+                left: 125px;
+                top: 160px;
+                border-radius: 10px;
+            }
+
+            #s5-2:hover {
+                position: absolute;
+                padding: 10px 5px;
+                left: 125px;
+                top: 160px;
+                background: rgb(156,28,230);
+                background: linear-gradient(90deg, rgba(156,28,230,1) 0%, rgba(89,47,225,1) 49%, rgba(18,93,197,1) 100%);
+                border-radius: 10px;
+                color: #131524;
+            }
+
+            #t8 {
+                font-size: 27px;
+                position: absolute;
+                left: 10px;
+                top:10px;
+            }          
+
+            #s6 {
+                position: absolute;
+                padding: 110px 600px;
+                left: 20%;
+                top: 1520px;
+                background-color: #373d6d;
+                border-radius: 10px;
+            }
+
+            #t9 {
+                font-size: 17px;
+                position: absolute;
+                left: 130px;
+                top:38px;
+                line-height: 1.7;
+            }
+
+            #s6-1 {
+                position: absolute;
+                padding: 10px 5px;
+                left: 125px;
+                top: 120px;
+                border-radius: 10px;
+            }
+
+            #s6-1:hover {
+                position: absolute;
+                padding: 10px 5px;
+                left: 125px;
+                top: 120px;
+                background: rgb(156,28,230);
+                background: linear-gradient(90deg, rgba(156,28,230,1) 0%, rgba(89,47,225,1) 49%, rgba(18,93,197,1) 100%);     
+                border-radius: 10px;
+                color: #131524;
+            }
+
+            #s6-2 {
+                position: absolute;
+                padding: 10px 5px;
+                left: 125px;
+                top: 160px;
+                border-radius: 10px;
+            }
+
+            #s6-2:hover {
+                position: absolute;
+                padding: 10px 5px;
+                left: 125px;
+                top: 160px;
+                background: rgb(156,28,230);
+                background: linear-gradient(90deg, rgba(156,28,230,1) 0%, rgba(89,47,225,1) 49%, rgba(18,93,197,1) 100%);
+                border-radius: 10px;
+                color: #131524;
+            }
+
+            #s8 {
+                padding: 30px 140px;
+                position: absolute;
+                left: 384px;
+                top:665px;
+                background-color: #232750;
+                border-radius: 10px 10px 0px 0px;
+            }
+
+            #s9 {
+                padding: 30px 140px;
+                position: absolute;
+                left: 384px;
+                top:1065px;
+                background-color: #232750;
+                border-radius: 10px 10px 0px 0px;
+            }
+
+            #s10 {
+                padding: 30px 140px;
+                position: absolute;
+                left: 384px;
+                top:1465px;
+                background-color: #232750;
+                border-radius: 10px 10px 0px 0px;
+            }
+
+            footer {
+                padding: 200px;
+                background-color:#232750;
+                color: #989EB3;
+                font-family: Arial, Helvetica, sans-serif;
+                border-radius: 15px;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <header>
+
+            <input id="b1" type="image" src="technologie.png">
+            <p id="t1">Technik-Welt</p>
+
+            <nav class="navbar">
+                <ul>
+
+                    <li><input id="b2" type="image" src="startseite.png"><a href="a-startseite.html">Startseite</a></li>
+
+                    <li><input id="b3" type="image" src="newspaper-folded.png"><a href="a-news.html">News</a></li>
+
+                    <li>
+                        <input id="b4" type="image" src="chip.png"><a href="#">CPU</a>
+                        <ul>
+                            <li><a href="#">CPU erklährt</a></li>
+                            <li><a href="#">CPU Hersteller</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <input id="b5" type="image" src="graphics-card.png"><a href="#">GPU</a>
+                        <ul>
+                            <li><a href="#">GPU erklährt</a></li>
+                            <li><a href="#">GPU Hersteller</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <input id="b6" type="image" src="cms.png"><a href="#">Betriebsysteme</a>
+                        <ul>
+                            <li><a href="#">verschiedene OS</a></li>
+                            <li><a href="#">News</a></li>
+                        </ul>
+                    </li>
+                    <li><input id="b7" type="image" src="fragezeichen.png"><a href="#">Fragen</a></li>
+                </ul>
+            </nav>
+
+            <form>
+                <select id="s1">
+                    <option onclick="window.location='a-startseite.html'">Hir suchen</option>
+                    <option onclick="window.location='a-ryzen99950x3d.html'">Ryzen 9 </option>
+                    <option onclick="window.location=''">fhuiweuhifewhuifwiufuih</option>
+                    <option onclick="window.location=''"></option>
+                    <option onclick="window.location=''"></option>
+                </select>
+            </form>
+
+        </header>
+
+        <article>
+
+            <div id="s2">
+                <strong id="t2">Was ist Technik-Welt für eine Webseite?</strong>
+            </div>
+            <div id="s3">
+                <strong id="t3">Technik-Welt ist eine Webseite bei der sie Informationen über CPUs, GPUs und verschieden Betriebsysteme kriegen.<br> Sie können sich eine erklährung durchlesen oder sie sehen sich die Hersteller an die diese Produckte machen.<br> Sie sehen außerdem wenn ein neues Produckt rauskommt.</strong>
+            </div>
+
+            <div id="s8">
+                <strong id="t4">Prozessoren (CPUs)</strong>
+            </div>
+                
+            <div id="s4">
+                <strong id="t5">Prozessoren auch genant CPUs sind die Gehirne der Computer. Es sind kleine Chips die alles berechnen was wir an unseren Computern machen. Ob im Internet surfen, Videospiele spielen oder Videos schneiden. </strong>
+                <div id="s4-1"><a class="li" href="">&#10145; Hir wird der Prozessor erklährt</a></div>
+                <div id="s4-2"><a class="li" href="">&#10145; Zu den Herstellern von Prozessoren</a></div>
+            </div>
+
+            <div id="s9">
+                <strong id="t6">Grafikkarten (GPUs)</strong>
+            </div>
+
+            <div id="s5">
+                <strong id="t7">Grafikkarten auch genant GPUs berechnen die Grafik die wir auf unseren Bildschirmen sehen.<br> Dabei berechnen sie die Farbe von jedem Pixel.</strong>
+                <div id="s5-1"><a class="li" href="">&#10145; Hir wird die Grafikkarte erklährt</a></div>
+                <div id="s5-2"><a class="li" href="">&#10145; Zu den Herstellern von Grafikkarten</a></div>
+            </div>
+
+            <div id="s10">
+                <strong id="t8">Betriebsysteme (OS)</strong>
+            </div>
+
+            <div id="s6">
+                <strong id="t9">Betriebsysteme erlauben uns in einer Benuteroberfläche dem Computer befehle zu geben.<br> </strong>
+                <div id="s6-1"><a class="li" href="">&#10145; Hir zu den verschieden Betriebsysteme</a></div>
+                <div id="s6-2"><a class="li" href="">&#10145; Neue Betriebsysteme</a></div>    
+            </div>
+
+        </article>
+
+        <footer>
+            <script src="hallo.js"></script>
+        </footer>
+
+    </body>
+</html>

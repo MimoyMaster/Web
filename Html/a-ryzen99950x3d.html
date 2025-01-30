@@ -1,0 +1,393 @@
+<html>
+    <title>www.technik-welt.info</title>
+    <link rel="icon" type="image/x-icon" href="technologie.png">
+    <head>
+        <style>
+
+            body {
+                background-color: #131524;
+            }
+
+            header {
+                padding: 200px;
+                color:#F1F3FF;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            #t1 {
+                font-size: 34px;
+                position: absolute;
+                left: 170px;
+                top: 30px;
+            }
+
+            #b1 {
+                position: absolute;
+                left: 90px;
+                top: 50px;
+            }
+
+            .navbar {
+		position: absolute;
+        left: 450px;
+        top: 65px;
+		z-index: 999;
+	}
+
+	.navbar ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	.navbar li {
+		display: inline-block;
+	}
+
+	.navbar li a {
+		color: #989EB3;
+		display: block;
+		padding: 13px 50px;
+		text-decoration: none;
+	}
+
+    .navbar li a:hover {
+		color: white;
+		display: block;
+		padding: 13px 50px;
+		text-decoration: none;
+        background-color: #125dc5;
+        border-radius: 10px;
+	}
+
+	/* Style the dropdown menu */
+	.navbar ul ul {
+		position: absolute;
+		top: 100%;
+		display: none;
+	}
+
+	.navbar ul ul li {
+		display: block;
+	}
+
+	.navbar li:hover ul {
+		display: block;
+	}
+
+	/* Change the background color of dropdown links on hover */
+	.navbar ul ul li a:hover {
+		background-color: #9c1ce6;
+        border-radius: 10px;
+        color: white;
+	}
+
+            #b2 {
+                position: absolute;
+                left: 10px;
+                top: 9px;
+            }
+
+            #b3 {
+                position: absolute;
+                left: 184px;
+                top: 9px;
+            }
+
+            #b4 {
+                position: absolute;
+                left: 332px;
+                top: 9px;
+            }
+
+            #b5 {
+                position: absolute;
+                left: 470px;
+                top: 9px;
+            }
+
+            #b6 {
+                position: absolute;
+                left: 610px;
+                top: 9px;
+            }
+
+            #s1 {
+                padding: 13px 100px;
+                position: absolute;
+                left: 1480px;
+                top:64px;
+                background-color: #131524;
+                color: #989EB3;
+                border: solid #125dc5;
+                border-radius: 15px;
+            }
+
+            #s1:hover {
+                padding: 13px 100px;
+                position: absolute;
+                left: 1480px;
+                top:64px;
+                background-color: #9c1ce6;
+                color: #F1F3FF;  
+                border: solid #9c1ce6; 
+                border-radius: 15px;          
+            }
+
+            #b7 {
+                position: absolute;
+                left: 825px;
+                top: 9px;
+            }
+
+            article {
+                padding: 300px;
+                color:#F1F3FF;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            #t2 {
+                font-size: 40px;
+                position: absolute;
+                left: 35%;
+                top: 50px;
+                background-image: linear-gradient(90deg, rgba(156,28,230,1) 0%, rgba(89,47,225,1) 49%, rgba(18,93,197,1) 100%);
+                background-size: 100% 6px;
+                background-position: bottom;
+                background-repeat: no-repeat;
+                line-height: 60px;
+            }
+
+            #s2 {
+                position: absolute;
+                padding: 80px 600px;
+                left: 20%;
+                top: 265px;
+            }
+
+            #s3 {
+                position: absolute;
+                padding: 80px 600px;
+                left: 20%;
+                top: 430px;
+                background-color: #373d6d;
+                border-radius: 10px;
+            }
+
+            #t3 {
+                font-size: 17px;
+                position: absolute;
+                left: 130px;
+                top:38px;
+                line-height: 1.7;
+            }
+
+            #t4 {
+                font-size: 27px;
+                position: absolute;
+                left: 10px;
+                top:10px;
+            }
+
+            .li {
+                color:#F1F3FF;
+                text-decoration: none;
+            }
+
+            .li:hover {
+                color:#131524;
+            }
+
+            #s8 {
+                padding: 30px 140px;
+                position: absolute;
+                left: 384px;
+                top:665px;
+                background-color: #232750;
+                border-radius: 10px 10px 0px 0px;
+            }
+
+            #s9 {
+                padding: 30px 140px;
+                position: absolute;
+                left: 384px;
+                top:1065px;
+                background-color: #232750;
+                border-radius: 10px 10px 0px 0px;
+            }
+
+            #s10 {
+                padding: 30px 140px;
+                position: absolute;
+                left: 384px;
+                top:1465px;
+                background-color: #232750;
+                border-radius: 10px 10px 0px 0px;
+            }
+
+            table {
+                color: white;
+                border-collapse: collapse;
+                position: absolute;
+                left: 520px;
+                top: 620px;
+                background-color: #2c3d4b;
+            }
+
+            th, td {
+                padding: 25px 140px;
+                text-align: left;
+            }
+
+            thead {
+                background-color: #125dc5;
+                font-size: 32px;
+            }
+
+            tr:nth-child(even) {
+                background-color: #364a5a;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <header>
+
+            <input id="b1" type="image" src="technologie.png">
+            <p id="t1">Technik-Welt</p>
+
+            <nav class="navbar">
+                <ul>
+
+                    <li><input id="b2" type="image" src="startseite.png"><a href="a-startseite.html">Startseite</a></li>
+
+                    <li><input id="b3" type="image" src="newspaper-folded.png"><a href="a-news.html">News</a></li>
+
+                    <li>
+                        <input id="b4" type="image" src="chip.png"><a href="#">CPU</a>
+                        <ul>
+                            <li><a href="#">CPU erklährt</a></li>
+                            <li><a href="#">CPU Hersteller</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <input id="b5" type="image" src="graphics-card.png"><a href="#">GPU</a>
+                        <ul>
+                            <li><a href="#">GPU erklährt</a></li>
+                            <li><a href="#">GPU Hersteller</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <input id="b6" type="image" src="cms.png"><a href="#">Betriebsysteme</a>
+                        <ul>
+                            <li><a href="#">verschiedene OS</a></li>
+                            <li><a href="#">News</a></li>
+                        </ul>
+                    </li>
+                    <li><input id="b7" type="image" src="fragezeichen.png"><a href="#">Fragen</a></li>
+                </ul>
+            </nav>
+
+            <form>
+                <select id="s1">
+                    <option onclick="window.location=''">Suchen</option>
+                    <option onclick="window.location=''">Ryzen 9 9950X3D</option>
+                    <option onclick="window.location=''"></option>
+                    <option onclick="window.location=''"></option>
+                    <option onclick="window.location=''"></option>
+                </select>
+            </form>
+
+        </header>
+
+        <article>
+
+            <div id="s2">
+                <strong id="t2">Ryzen 9 9950X3D</strong>
+            </div>
+            <div id="s3">
+                <strong id="t3">Der Verkauf dieser CPU startete am 6 Januar 2025, er hat 16 Kerne und 32 Threads. Er ist die neuste CPU von Amd.<br> Seine Prozesstechnologie liegt bei 4 nm. </strong>
+            </div>     
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Kategorien</th>
+                        <th>Infos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Name</td>
+                        <td>Ryzen 9 9950X3D</td>
+                    </tr>
+                    <tr>
+                        <td>Datum</td>
+                        <td>6 Januar 2025</td>
+                    </tr>
+                    <tr>
+                        <td>Typ</td>
+                        <td>Desktop</td>
+                    </tr>
+                    <tr>
+                        <td>Kerne</td>
+                        <td>16</td>
+                    </tr>
+                    <tr>
+                        <td>Threads</td>
+                        <td>32</td>
+                    </tr>
+                    <tr>
+                        <td>Grundfrequenz</td>
+                        <td>4.3 GHz</td>
+                    </tr>
+                    <tr>
+                        <td>Maximale Frequenz</td>
+                        <td>5.7 GHz</td>
+                    </tr>
+                    <tr>
+                        <td>L1-Cache</td>
+                        <td>80 KB</td>
+                    </tr>
+                    <tr>
+                        <td>L2-Cache</td>
+                        <td>1 MB</td>
+                    </tr>
+                    <tr>
+                        <td>L3-Cache</td>
+                        <td>128 MB</td>
+                    </tr>
+                    <tr>
+                        <td>Technologischer Prozess</td>
+                        <td>2x 70.6 mm2</td>
+                    </tr>
+                    <tr>
+                        <td>Anzahl der Transistoren</td>
+                        <td>16,630 million</td>
+                    </tr>
+                    <tr>
+                        <td>Sockel</td>
+                        <td>AM5</td>
+                    </tr>
+                    <tr>
+                        <td>Leistungsaufnahme</td>
+                        <td>170 Watt</td>
+                    </tr>
+                    <tr>
+                        <td>IGPU</td>
+                        <td>keine Angabe</td>
+                    </tr>
+                    <tr>
+                        <td>Meinung</td>
+                        <td>eine sehr gute CPU</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </article>
+
+    </body>
+</html>
